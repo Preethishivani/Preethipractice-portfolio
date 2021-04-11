@@ -17,6 +17,10 @@
 </head>
 <body>
   <h1>Preethi's - Component Library</h1>
+  <hr />
+
+  <h2>Typography</h2>
+  <h3>Hello my name is Preethi Shivani</h3>
   <p> <strong>I am 21 years</strong> old now and I have done a lot of work while doing this course and have successfully completed this course with flying colours.Thank you to the team of skill safari for encouraging me and also for helping me to find a perfect job that will help me to increase skills.</p>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam id ea. Iste, voluptas perferendis!</p>
   <hr />
@@ -29,10 +33,16 @@
 
   <h2>Containers</h2>
   <p>There are two types of containers:</p>
-  <h4>Fluid Container:</h4>
-  <p>This will take the <strong>entire width of the page</strong> with some margin on left and right.</p>
-  <h4>Center Container:</h4>
-  <p>This will be in the <strong>center of the page</strong>. It will only go till given width with content in center.</p>
+
+  <div class="container-fluid">
+    <h4>Fluid Container:</h4>
+    <p>This will take <strong>entire width of the page</strong> with some margin on left and right.</p>
+  </div>
+  <hr />
+  <div class="container">
+    <h4>Center Container:</h4>
+    <p>This will be in the <strong>center of the page</strong>. It will only go till given width with content in center.</p>
+  </div>
   <hr />
   
   <h2>Links/Anchors</h2>
@@ -95,15 +105,17 @@
   <h2>Header</h2>
   <p>It has two things to do header image and header heading</p>
   <p>This can be understood clearly by using CSS</p>
+  
+  <header class="container">
+    <ol>
+      <li><h3>Header image</h3></li>
+      <img src="./header image.svg" alt="A header image">
 
-  <ol>
-    <li><h3>Header image</h3></li>
-    <img src="./header image.svg" alt="A header image">
-
-    <li><h3>Header heading</h3></li>
-    <p>I am an upcoming developer</p>
-  </ol>
-  <hr />
+      <li><h3>Header heading</h3></li>
+      <p>I am an upcoming web developer</p>
+    </ol>
+  </header>
+  <hr>
 
   <h2>sections</h2>
   <p>section is used to separate parts of pages</p>
