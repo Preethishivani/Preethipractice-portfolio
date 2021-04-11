@@ -9,6 +9,13 @@
   box-sizing:border-box; */
 }
 
+:root{
+  --primary-color:#1E3A8A;
+  --secondary-color:#FBBF24;
+  --white:#ffffff;
+  --gray: #111827;
+}
+
 .container-fluid{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -19,4 +26,43 @@
   padding-left: 2rem;
   padding-right: 2rem;
   max-width: 600px;
+}
+.link{
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  width:max-content;
+  color: red;
+}
+/* .primary{
+  padding:0.5rem 1rem;
+  border: 0.5px solid #000;
+  border-radius: 10px;
+  color:white;
+  background-color: blue;
+  text-decoration: none;
+  margin: 1rem 1rem;
+}
+
+.secondary{
+  padding:0.5rem 1rem;
+  border: 0.5px solid #000;
+  border-radius: 10px;
+  color:yellow;
+  background-color: brown;
+  text-decoration: none;
+  margin: 1rem;
+} */
+.primary{
+  margin:1rem;
+  border:1px solid var(--primary-color);
+  border-radius: 0.5rem ;
+  background-color: var(--primary-color);
+  color:var(--secondary-color); 
+}
+.secondary{
+  margin:1rem;
+  border:1px solid var(--gray);
+  border-radius: 0.5rem ;
+  background-color: var(--gray);
+  color:var(--white); 
 }
