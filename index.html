@@ -61,11 +61,23 @@
   <hr />
 
   <h2>Lists</h2>
-  <p>There are 3 types of lists</p>
   <ol>
-
     <li><h3>Unordered lists</h3></li>
     <ul>
+      <li>name</li>
+      <li>age</li>
+      <li>dob</li>
+    </ul>
+
+    <li><h3>Unordered list without bullets</h3></li>
+    <ul class="unlisted">
+      <li>name</li>
+      <li>age</li>
+      <li>dob</li>
+    </ul>
+
+    <li><h3>inline lists</h3></li>
+    <ul class="unordered">
       <li>name</li>
       <li>age</li>
       <li>dob</li>
@@ -90,13 +102,13 @@
   <h2>Navigation bar/Nav menu</h2>
   <p>This can be understood clearly by using CSS</p>
 
-  <nav>
+  <nav class="navigate">
     <div>
-      <div>Preethi projects</div>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">My projects</a></li>
-        <li><a href="">about</a></li>
+      <div class="brand-name">Preethi projects</div>
+      <ul class="unordered-nav">
+        <li><a class="link pass" href="">Home</a></li>
+        <li><a class="link" href="">My projects</a></li>
+        <li><a class="link" href="">about</a></li>
       </ul>
     </div>
   </nav>

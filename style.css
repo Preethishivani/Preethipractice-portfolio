@@ -13,7 +13,9 @@
   --primary-color:#1E3A8A;
   --secondary-color:#FBBF24;
   --white:#ffffff;
-  --gray: #111827;
+  --tomato-red:#EF4444;
+  --light-green:#A7F3D0;
+
 }
 
 .container-fluid{
@@ -31,7 +33,7 @@
   padding: 0.5rem 1rem;
   text-decoration: none;
   width:max-content;
-  color: red;
+  color: goldenrod;
 }
 /* .primary{
   padding:0.5rem 1rem;
@@ -61,8 +63,49 @@
 }
 .secondary{
   margin:1rem;
-  border:1px solid var(--gray);
+  border:1px solid var(--tomato-red);
   border-radius: 0.5rem ;
-  background-color: var(--gray);
+  background-color: var(--tomato-red);
   color:var(--white); 
+}
+
+.unlisted{
+  list-style: none;
+}
+
+.unordered li{
+  display: inline;
+  padding:0rem 0.5rem;
+}
+
+.navigate{
+  background-color: var(--tomato-red);
+  padding: 1rem 0rem;
+  color:var(--light-green);
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem ;
+  
+}
+.navigate .brand-name{
+  padding: 0rem 1rem;
+  width:max-content;
+  font-weight: 700;
+  color:gainsboro;
+}
+.navigate ul{
+  list-style: none;
+  text-align: right;
+
+}
+.navigate ul li a{
+  font-weight: 1000;
+
+}
+.navigate ul li a.pass{
+  color:greenyellow;
+}
+.unordered-nav li{
+  display: inline;
+  padding:0rem 0.5rem;
+  border-bottom: 3rem;
 }
