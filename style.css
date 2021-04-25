@@ -310,6 +310,7 @@ footer ul li a:hover{
   right: 2rem;
   font-size: 3rem;
   background: none;
+  border: none;
 }
 .btn-close-2{
   position: absolute; 
@@ -317,6 +318,7 @@ footer ul li a:hover{
   right: 2rem;
   font-size: 3rem;
   background: none;
+  border: none;
 }
 .btn-close-3{
   position: absolute; 
@@ -324,6 +326,7 @@ footer ul li a:hover{
   right: 2rem;
   font-size: 3rem;
   background: none;
+  border: none;
 }
 .cool{
   margin-top: 3.5rem;
