@@ -21,6 +21,7 @@ function showModal3(){
   modalThree.classList.remove('hidden');
   overlay.classList.remove('hidden');
 }
+
 function closeModal1(){
   modalOne.classList.add('hidden');
   overlay.classList.add('hidden');
@@ -52,4 +53,4 @@ document.addEventListener('keydown',function(e){
     closeModal2();
     closeModal3();
   }
-})
+});
