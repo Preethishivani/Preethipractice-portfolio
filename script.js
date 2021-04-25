@@ -4,10 +4,10 @@ const modalThree = document.querySelector('.modal-3');
 const btnCloseOne = document.querySelector('.btn-close-1');
 const btnCloseTwo = document.querySelector('.btn-close-2');
 const btnCloseThree = document.querySelector('.btn-close-3');
-const overlay = document.querySelector('.overlay');
 const btnOne = document.querySelector('.btn-1');
 const btnTwo = document.querySelector('.btn-2');
 const btnThree = document.querySelector('.btn-3');
+const overlay = document.querySelector('.overlay');
 
 function showModal1(){
   modalOne.classList.remove('hidden');
